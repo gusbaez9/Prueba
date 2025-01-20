@@ -8,7 +8,7 @@ export function Logica(productos) {
     for (let i = 0; i < productos.length; i++) {
         if (productos[i].categoria == "Electronica") {
             totalDescuentoElec += productos[i].precio * descuento1;
-            productos[i].precio = productos[i].precio * (1 - descuento1);
+            productos[i].precio = productos[i].precio * (1 - descuento1);    //agregue esta nueva linea.
         }
         if (productos[i].categoria == "Juguetes") {
             totalDescuentoJug += productos[i].precio * descuento2;

@@ -5,7 +5,7 @@ for(let i=0; i<arraySub.length; i++) {
 }
 return sum;   
 }
-export function sumaTotal(num1, num2, num3) {
+export function sumaTotal(num1, num2, num3) {   //agregue esta nueva linea.
     return num1 + num2 + num3;
    //return math.sum(arraySub)//
 }

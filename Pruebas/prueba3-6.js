@@ -13,7 +13,7 @@ let promoContado = 0.50;
 
 totalCompra = Logica(productos);
 
-totalCompraOrig = sumaTotal(totalCompra.Compra, totalCompra.Elec, totalCompra.Jug);
+totalCompraOrig = sumaTotal(totalCompra.Compra, totalCompra.Elec, totalCompra.Jug);  //agregue esta nueva linea.
 pagoEfectivo = pagoEfvo(totalCompra.Compra, promoContado);
 
 console.log(productos);
@@ -24,5 +24,5 @@ console.log("El valor total de la Compra Final es: " + totalCompra.Compra);
 console.log("El valor total al pagar al contado es: " + pagoEfectivo);
 
 
-let mensaje = `Adding ${descuento1} and ${descuento2} gives ${descuento1 + descuento2}.`;
+let mensaje = `Adding ${descuento1} and ${descuento2} gives ${descuento1 + descuento2}.`; //solo funciona con constantes.
 console.log(mensaje);

@@ -8,3 +8,13 @@ let productos = [
 ];
 
 export {productos};
+
+let servicios = [
+    { nombre: "Wifi", categoria: "Internet", precio: 700 },
+    { nombre: "TelefonoFijo", categoria: "Telefonia", precio: 500 },
+    { nombre: "CamaraSeguridad", categoria: "Vigilancia", precio: 850 },
+    { nombre: "Modem5g", categoria: "Internet", precio: 400 },
+    { nombre: "LineaPrepaga", categoria: "Telefonia", precio: 500 },
+    { nombre: "SensorMovimiento", categoria: "Vigilancia", precio: 900 },
+    { nombre: "LineaPersonal", categoria: "telefonia", precio: "200"}
+];

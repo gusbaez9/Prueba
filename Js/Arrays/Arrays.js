@@ -17,4 +17,4 @@ let servicios = [
     { nombre: "LineaPrepaga", categoria: "Telefonia", precio: 500 },
     { nombre: "SensorMovimiento", categoria: "Vigilancia", precio: 900 },
     { nombre: "LineaPersonal", categoria: "telefonia", precio: "200"}
-];
+]; 

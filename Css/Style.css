@@ -1,3 +1,48 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("../Img/Fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
 h1 {
     color: blue;
     font-family: sans-serif;
@@ -5,4 +50,20 @@ h1 {
 
 h3 {
     color: purple;
+}
+
+/*tr {
+    height: 100px;
+    align-items: end;
+    font-weight: 900;
+    font-size: x-large;
+}*/
+
+th {
+    display: inline-table;
+    height: 100px;
+    align-items: baseline;
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 10px;
 }

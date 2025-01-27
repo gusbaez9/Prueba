@@ -16,5 +16,6 @@ let servicios = [
     { nombre: "Modem5g", categoria: "Internet", precio: 400 },                    //agregue esta nueva linea.
     { nombre: "LineaPrepaga", categoria: "Telefonia", precio: 500 },
     { nombre: "SensorMovimiento", categoria: "Vigilancia", precio: 900 },
-    { nombre: "LineaPersonal", categoria: "telefonia", precio: "200"}
 ]; 
+
+export {servicios};

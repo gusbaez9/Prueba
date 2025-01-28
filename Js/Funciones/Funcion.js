@@ -1,15 +1,16 @@
-import { productos } from "../Arrays/Arrays";
+import { productos } from "../Arrays/Arrays.js";
+import { servicios } from "../Arrays/Arrays.js";
 
 export function total2(arraySub) {
-    let sum=0;
-for(let i=0; i<arraySub.length; i++) {
-    sum+=arraySub[i];
-}
-return sum;   
+    let sum = 0;
+    for (let i = 0; i < arraySub.length; i++) {
+        sum += arraySub[i];
+    }
+    return sum;
 }
 export function sumaTotal(num1, num2, num3) {   //agregue esta nueva linea.
     return num1 + num2 + num3;
-   //return math.sum(arraySub)//
+    //return math.sum(arraySub)//
 }
 
 export function pagoEfvo(num1, num2) {
@@ -36,7 +37,7 @@ export function creaRegistroTabla1(productos) {
         row.appendChild(precioCell);
 
         tableBody.appendChild(row);
-    });
+    });
 }
 
 export function creaRegistroTabla2(servicios) {
@@ -59,18 +60,26 @@ export function creaRegistroTabla2(servicios) {
         row.appendChild(precioCell);
 
         tableBody.appendChild(row);
-    });
+    });
 }
 
-/*let descuento1 = 0.10;
-
-export function aplicarDescuento(){
+export function aplicarDescuento() {
+    let descuento1 = 0.10;
+    document.getElementById("btn1");
     productos.forEach(item => {
-        if(item.categoria === "Electronica") {
+        if (item.categoria === "Electronica") {
             item.precio = (item.precio - (item.precio * descuento1));
         }
     }
-)};
-creaRegistroTabla1(productos);
-aplicarDescuento(getElementById("aplicarDescuento"))
-*/
+    )
+};
+
+/*const boton = document.getElementById("btn1");
+boton addEventListener("click", function aplicarDescuento(){
+    productos.forEach(item => {
+        if (item.categoria === "Electronica") {
+            item.precio = (item.precio - (item.precio * descuento1));
+        }
+    }
+    )
+});*/

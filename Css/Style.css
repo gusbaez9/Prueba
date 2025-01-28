@@ -14,7 +14,7 @@ a{
 header{
     display: flex;
     height: 70px;
-    background-color: coral;
+    background: rgba(255,255,255,0.5);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -44,26 +44,63 @@ nav a:hover{
 }
 
 h1 {
-    color: blue;
-    font-family: sans-serif;
+    font-size: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: rgba(255,255,255,0.5);
 }
 
 h3 {
-    color: purple;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
-/*tr {
-    height: 100px;
-    align-items: end;
-    font-weight: 900;
-    font-size: x-large;
-}*/
+h3:hover {
+    color: rgba(255,255,255,0.5);
+}
 
 th {
-    display: inline-table;
     height: 100px;
-    align-items: baseline;
-    font-weight: 900;
+    width: 225px;
+    align-items: center;
+    font-weight: 700;
     font-size: x-large;
-    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255,255,255,0.5);
+}
+
+/*th {
+    height: 100px;
+    align-items: center;
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 20px;
+}*/
+
+tbody {
+    height: 350px;
+    width: 100px;
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.353);
+}
+
+ table {
+    
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }

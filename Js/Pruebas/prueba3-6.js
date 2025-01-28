@@ -1,4 +1,4 @@
-import { sumaTotal, pagoEfvo } from "../Funciones/Funcion.js";
+import { sumaTotal, pagoEfvo, aplicarDescuento } from "../Funciones/Funcion.js";
 import { Logica } from "../Logica/Logica.js";
 import { productos, servicios } from "../Arrays/Arrays.js";
 import { creaRegistroTabla1, creaRegistroTabla2 } from "../Funciones/Funcion.js";
@@ -11,6 +11,7 @@ let promoContado = 0.50;
 
 creaRegistroTabla1(productos);
 creaRegistroTabla2(servicios);
+aplicarDescuento();
 
 totalCompra = Logica(productos);
 

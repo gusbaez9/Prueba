@@ -1,4 +1,4 @@
-body{
+body {
     font-family: sans-serif;
     margin: 0;
     background-image: url("../Img/Fondo.jpg");
@@ -6,40 +6,40 @@ body{
     background-repeat: no-repeat;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-header{
+header {
     display: flex;
     height: 70px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-header a:hover{
+header a:hover {
     color: blueviolet;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 50px;
     margin-right: 10px;
 }
 
-nav{
+nav {
     font-weight: 600;
     padding-right: 10px;
 }
 
-nav a:hover{
+nav a:hover {
     color: blueviolet;
 }
 
@@ -50,7 +50,7 @@ h1 {
 }
 
 h1:hover {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 h3 {
@@ -59,7 +59,7 @@ h3 {
 }
 
 h3:hover {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 th {
@@ -70,7 +70,7 @@ th {
     font-size: x-large;
     text-align: center;
     cursor: pointer;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 /*th {

@@ -1,5 +1,4 @@
-import { productos } from "../Arrays/Arrays.js";
-import { servicios } from "../Arrays/Arrays.js";
+import { productos, servicios } from "../Arrays/Arrays.js";
 
 export function total2(arraySub) {
     let sum = 0;
@@ -65,13 +64,17 @@ export function creaRegistroTabla2(servicios) {
 
 export function aplicarDescuento() {
     let descuento1 = 0.10;
-    document.getElementById("btn1");
-    productos.forEach(item => {
-        if (item.categoria === "Electronica") {
-            item.precio = (item.precio - (item.precio * descuento1));
-        }
-    }
-    )
+    const btn1 = document.getElementById("btn1");
+    btn1.addEventListener("click", () => {
+        console.log("Botón presionado, aplicando descuento...");
+        productos.forEach(item => {
+            if (item.categoria === "Electronica") {
+                item.precio = (item.precio - (item.precio * descuento1));
+            }
+        })
+        creaRegistroTabla1(productos);
+        alert("El descuento ha sido aplicado!");
+    })
 };
 
 /*const boton = document.getElementById("btn1");
